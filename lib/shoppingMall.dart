@@ -77,4 +77,13 @@ class ShoppingMall {
     }
     print('장바구니에 ${names.join(', ')} 담겨있네요. 총 ${total}원 입니다!');
   }
+
+  void resetCart() {
+    if (cart.isEmpty) {
+      print('이미 장바구니가 비어있습니다.');
+    } else {
+      cart.clear();
+      print('장바구니를 초기화합니다.');
+    }
+  }
 }
