@@ -1,2 +1,10 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+01. Dart 콘솔 쇼핑몰 애플리케이션
+프로젝트 소개
+이 프로젝트는 Dart언어로 구현된 간단한 콘솔 기반 쇼핑몰 애플리케이션입니다. 사용자는 상품 목록을 보고, 원하는 상품을 장바구니에 담을 수 있으며, 장바구니에 담긴 상품의 총 가격을 볼 수 있고, 장바구니를 초기화하는 기능이 있습니다.
+
+주요기능
+상품 목록 보기 : 
+장바구니에 담기 :
+장바구니에 담긴 상품의 총 가격 보기 : 
+프로그램 종료 : 
+장바구니 초기화 : 
