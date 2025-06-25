@@ -20,7 +20,6 @@ void main(List<String> arguments) {
         "----------------------------------------------------------------------------------------------------------------------------");
 
     String? input = stdin.readLineSync();
-    // print('아무말');
 
     switch (input) {
       case '1':
@@ -51,22 +50,3 @@ void main(List<String> arguments) {
     }
   }
 }
-
-// void main() {
-//   stdout.write('입력: ');
-//   String? input = stdin.readLineSync();
-//   print('RAW: $input');
-
-//   if (input == '셔츠') {
-//     print('셔츠가 입력되었습니다!');
-//   } else {
-//     print('일치하지 않습니다.');
-//   }
-// }
-
-
-// Future<void> main() async {
-//   stdout.write('한글 입력: ');
-//   String input = await stdin.transform(utf8.decoder).first;
-//   print('입력한 값: $input');
-// }

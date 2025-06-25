@@ -21,13 +21,6 @@ class ShoppingMall {
     }
   }
 
-  // void addToCart(int index) {
-  //   if (index > products.length || index < 0) {
-  //     print('잘못된 인덱스 임다');
-  //   } else {
-  //     cart.add(products[index]);
-  //   }
-  // }
   void addToCart() {
     stdout.write('상품 이름을 입력해 주세요 !\n');
     String? name = stdin.readLineSync(encoding: utf8)?.trim();
@@ -74,7 +67,7 @@ class ShoppingMall {
         }
       }
     }
-    print('장바구니에 ${names.join(', ')} 담겨있네요. 총 ${total}원 입니다!');
+    print('장바구니에 ${names.join(', ')}이(가) 담겨있네요. 총 ${total}원 입니다!');
   }
 
   void resetCart() {
