@@ -20,6 +20,9 @@
 
 ### Dart
 
+## 실행 화면
+<img src="images/run_ex.png" alt="running screen" width="890" height="933"> 
+
 ## 프로젝트 구조
 bin/console_shop.dart
 
