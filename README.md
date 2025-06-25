@@ -16,7 +16,7 @@
 프로그램 종료: 애플리케이션을 안전하게 종료할 수 있습니다.
 
 ## 사용 기술
-<img src="images/dart.svg" alt="Dart Logo" width="100" height="100"> 
+<img src="images/dart_Logo.svg" alt="Dart Logo" width="100" height="100"> 
 
 ### Dart
 
