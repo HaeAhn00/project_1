@@ -10,7 +10,6 @@ class Product {
 
 class ShoppingMall {
   final List<Product> products;
-  // final List<Product> cart = List.empty();
   final Map<String, int> cart = {};
 
   ShoppingMall(this.products);
