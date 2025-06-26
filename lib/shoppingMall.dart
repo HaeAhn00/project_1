@@ -21,7 +21,7 @@ class ShoppingMall {
   }
 
   void addToCart() {
-    stdout.write('상품 이름을 입력해 주세요 !\n');
+    stdout.write('상품 이름을 입력해 주세요: ');
     String? name = stdin.readLineSync(encoding: utf8)?.trim();
     var product = products.firstWhere(
       (p) => p.name == name,
@@ -33,7 +33,7 @@ class ShoppingMall {
       return;
     }
 
-    stdout.write('상품 개수를 입력해 주세요 !\n');
+    stdout.write('상품 개수를 입력해 주세요: ');
     String? countStr = stdin.readLineSync();
     try {
       int count = int.parse(countStr ?? '');
