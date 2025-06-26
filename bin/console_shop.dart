@@ -1,8 +1,10 @@
-import 'dart:io';
-import 'package:project_1/shoppingMall.dart';
+import 'dart:io'; //입출력 라이브러리
+import 'package:project_1/shoppingMall.dart'; // shoppingMall 라이브러리
 
 void main(List<String> arguments) {
+  // 프로그램 시작점, arguments는 실행 시 전달받는 인자
   var mall = ShoppingMall([
+    // 쇼핑몰 객체 생성, Product 리스트를 초기 상품 목록으로 전달
     Product('셔츠', 45000),
     Product('원피스', 30000),
     Product('반팔티', 35000),
@@ -10,18 +12,18 @@ void main(List<String> arguments) {
     Product('양말', 5000),
   ]);
 
-  bool running = true;
+  bool running = true; // 논리형 타입 running, true일 때 계속 실행
   while (running) {
+    // running이 true인 동안 무한 루프 실행
     print('\n==== 메뉴 ====👇');
     print('[1] 상품 목록 보기 / [2] 장바구니에 담기 / '
         '[3] 장바구니에 담긴 상품의 총 가격 보기 / [4] 프로그램 종료 / [6] 장바구니 초기화');
-    // print(
-    // "----------------------------------------------------------------------------------------------------------------------------");
 
-    stdout.write('번호 입력: ');
-    String? input = stdin.readLineSync();
+    stdout.write('번호 입력: '); // 사용자 입력 요청
+    String? input = stdin.readLineSync(); // 사용자로부터 한 줄 입력을 받음
 
     switch (input) {
+      // 그냥 뭐.. 스위치문
       case '1':
         mall.showProducts();
         break;
