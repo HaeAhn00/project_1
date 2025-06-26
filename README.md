@@ -12,9 +12,9 @@
 - **프로그램 종료**: 애플리케이션을 안전하게 종료할 수 있습니다.
 
 ## 사용 기술
-<img src="images/dart_Logo.svg" alt="Dart Logo" width="100" height="100"> 
+<img src="images/dart_Logo.svg" alt="Dart Logo" width="80" height="80"> 
 
-### Dart
+<img src="https://img.shields.io/badge/Dart-39ACE3?style=for-the-badge&logo=Dart&logoColor=045493">
 
 ## 실행 환경
 
